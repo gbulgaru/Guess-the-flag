@@ -1,0 +1,74 @@
+body {
+	font-family: Arial, sans-serif;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	margin: 0;
+	background-color: lightblue;
+}
+
+.centered {
+	text-align: center;
+	background: white;
+	padding: 20px;
+	border-radius: 5vw;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#flag-display {
+	font-size: 5vw;
+}
+
+#result {
+	font-size: 1vw;
+	font-weight: bold;
+}
+
+button, select, input {
+	margin: 10px;
+	padding: 10px;
+	font-size: 16px;
+	border: 1px solid #ccc;
+	border-radius: 20px;
+	outline: none;
+	transition: all 0.3s ease;
+}
+
+button:hover, select:hover, input:hover {
+	border-color: #888;
+}
+
+button {
+	background-color: #4CAF50;
+	color: white;
+	cursor: pointer;
+}
+
+button:hover {
+	background-color: #45a049;
+}
+
+input {
+	border: 1px solid #ccc;
+	border-radius: 20px;
+	padding: 10px;
+}
+
+select {
+	border: 1px solid #ccc;
+	border-radius: 20px;
+	padding: 10px;
+}
+
+.wrong-answer {
+	color: red;
+	display: inline-block;
+	margin-right: 5px;
+	font-size: 1em;
+}
+
+.correct-country {
+	margin-top: 5px;
+	font-size: 14px;
+}

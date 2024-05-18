@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+	<meta charset="UTF-8">
+	<title>Guess the flag</title>
+	<link rel="stylesheet" href="style/style.css">
+	<script src="https://kit.fontawesome.com/e1f3acd258.js" crossorigin="anonymous"></script>
+	<script src="script/jquery-3.7.1.min.js"></script>
+</head>
+<body>
+<div class="centered">
+	<h1 id="welcomeTitle">🌍 Indovina la bandiera 🌍</h1>
+	<select id="continentSelect">
+		<option value="africa">Africa</option>
+		<option value="asia">Asia</option>
+		<option value="europe">Europe</option>
+		<option value="north america">North America</option>
+		<option value="south america">South America</option>
+		<option value="oceania">Oceania</option>
+	</select>
+	<button id="startGame">Inizia</button>
+	<div id="flag-display"></div>
+	<div id="result"></div>
+</div>
+<script src="script/gameInit.js"></script>
+</body>
+</html>
