@@ -1,14 +1,14 @@
 <!DOCTYPE html>
-<html lang="it">
+<html lang="en">
 <head>
 	<meta charset="UTF-8">
 	<title>Guess the flag</title>
 	<link rel="stylesheet" href="style/style.css">
-	<script src="script/jquery-3.7.1.min.js"></script>
+	<script src="script/lib/jquery-3.7.1.min.js"></script>
 </head>
 <body>
 <div class="centered">
-	<h1 id="welcomeTitle">🌍 Indovina la bandiera 🌍</h1>
+	<h1 id="welcomeTitle">🌍 Guess the flag 🌍</h1>
 	<select id="continentSelect">
 		<option value="africa">Africa</option>
 		<option value="asia">Asia</option>
@@ -17,9 +17,12 @@
 		<option value="south america">South America</option>
 		<option value="oceania">Oceania</option>
 	</select>
-	<button id="startGame">Inizia</button>
-	<div id="flag-display"></div>
-	<div id="result"></div>
+	<div>
+		<button id="flagToName">🏳️ → Name</button>
+		<button id="nameToFlag">Name → 🏳️</button>
+	</div>
+	<p id="initialPrompt"></p>
+	<div id="responseArea"></div>
 </div>
 <script src="script/gameInit.js"></script>
 </body>

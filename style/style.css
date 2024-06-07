@@ -16,13 +16,18 @@ body {
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-#flag-display {
+#initialPrompt{
 	font-size: 5vw;
+	font-weight: bold;
 }
 
-#result {
-	font-size: 1vw;
-	font-weight: bold;
+#responseArea p{
+	font-size: 5vw;
+	display: inline;
+}
+
+#responseArea :hover{
+	cursor: pointer;
 }
 
 button, select, input {
