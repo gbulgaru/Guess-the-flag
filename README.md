@@ -3,7 +3,7 @@ Guess the flag is an online singleplayer browser game where you have to recogniz
 All countries are supported!
 
 ## Tech insights
-At the loading of the gameplay the browser makes a request to [REST countries APIs](restcountries.com) to get all the country names and codes for the selected continent.\
+At the loading of the gameplay the browser makes a request to [REST countries APIs](https://restcountries.com) to get all the country names and codes for the selected continent.\
 All matches for the selected continent are processed locally to reduce bandwitdh consumtion and waiting time.\
 
 ## Can I improve this project?
